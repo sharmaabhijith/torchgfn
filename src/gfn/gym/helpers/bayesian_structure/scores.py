@@ -7,7 +7,7 @@ import torch
 from scipy.special import gammaln
 from torch_geometric.utils import to_dense_adj
 
-from gfn.gym.helpers.bayesian_structure.prior import BasePrior
+from gfn.gym.helpers.bayesian_structure.priors import BasePrior
 from gfn.states import GraphStates
 
 
